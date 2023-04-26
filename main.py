@@ -68,7 +68,7 @@ def show_accumulated_profit(df_base, anio):
     
     
 def main():
-    st.title('Flujo Estudio Fragua')
+    st.title('Flujo Empresa')
     uploaded_file = st.file_uploader("Sube el excel generado en Notion")
     anio = st.selectbox('Selecciona el año',(2023, 2024, 2025))
     if uploaded_file is not None:
